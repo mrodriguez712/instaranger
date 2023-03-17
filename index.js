@@ -24,12 +24,8 @@ for (let post of posts) {
             <img class='icons' src='./images/icon-dm.png' alt='icon for direct messaging user' />
 
             <div class='user-likes'>
-                <p><span class='likes'>${post.likes}</span> like</p>
+                <p><span class='likes'>${post.likes}</span> likes</p>
             </div>
-        </div>
-
-        <div class='user-likes'>
-            <p id='likes'>${post.likes} likes</p>
         </div>
 
         <div class='user-comment'>
