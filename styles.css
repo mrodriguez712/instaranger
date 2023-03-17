@@ -1,0 +1,95 @@
+body {
+    max-width: 600px;
+    margin: auto;
+    /* border: 1px solid rgb(249, 246, 246); */
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #EDEDED;
+}
+
+.main-content {
+    background-color: #EDEDED;
+}
+
+.container {
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+/* header */
+.header-container {
+    border-bottom: 1px solid #c6c6c6;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo-pic {
+    width: 200px;
+    height: 100px;
+    padding: 4px;
+}
+
+.user-zordon-pic {
+    padding: 32px;
+}
+
+.user-pic,
+.user-zordon-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* user picture and name */
+.user-pic {
+    padding: 20px 10px;
+}
+
+.user-container-image {
+    display: flex;
+    line-height: .2;
+}
+
+.user-name,
+.user-likes {
+    font-weight: bold;
+}
+
+.user-name,
+.user-likes,
+.user-comment {
+    font-size: 18px;
+}
+
+.user-name {
+    padding-top: 15px;
+}
+
+/* user posts */
+.user-pic-post {
+    width: 100%;
+}
+
+/* icons */
+.user-buttons {
+    padding: 23px 2px 0;
+}
+
+.icons {
+    width: 40px;
+    margin-left: 10px;
+}
+
+#icon-like-btn {
+    cursor: pointer;
+}
+
+/* likes */
+.user-likes {
+    padding-left: 12px;
+}
+
+/* comments */
+.user-comment {
+    padding: 0 12px 15px;
+}
